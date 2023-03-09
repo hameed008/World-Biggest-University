@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<title>World Biggest University</title>
+</head>
+<body>
+<!----Header Section-->
+<section class="sub-header">
+<nav>
+<a href="index.html"><img src="images/logo.jpg" alt="University Logo" title="University Logo"></a>
+<div class="nav-links" id="navlinks">
+<i class="fa fa-times" onclick="hidemenu()"></i>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="course.html">Course</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+<i class="fa fa-bars" onclick="showmenu()"></i>
+</nav>
+<h1>About Us</h1>
+</section>
+<!---- About Us Content ---->
+<section class="about-us">
+<div class="row">
+<div class="about-col">
+<h1>We Are The World's Largest University</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    Et explicabo veniam temporibus autem nemo est ea eum reiciendis.
+    Tempora doloribus voluptatum,distinctio maxime nobis delectus 
+    et itaque commodi eos doloremque.Et explicabo veniam temporibus
+    autem nemo est ea eum reiciendis.
+    Tempora doloribus voluptatum,distinctio maxime nobis delectus 
+    Et explicabo veniam temporibus autem nemo est ea eum reiciendis.
+    Tempora doloribus voluptatum,distinctio maxime nobis delectus </p>
+    <a href="" class="hero-btn red-btn">Explore Now</a>
+</div>
+<div class="about-col">
+<img src="images/aboutus.jpg" alt="">
+</div>
+</div>
+</section>
+<!---- Footer ---->
+<section class="footer">
+<h4>About Us</h4>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
+  Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. Fugit
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit</p>
+ <div class="icon">
+ <i class="fa fa-facebook"></i>
+ <i class="fa fa-twitter"></i>
+ <i class="fa fa-instagram" aria-hidden="true"></i>
+ <i class="fa fa-linkedin"></i>
+ <p>Made By Hameed Khan</p>
+ </div>
+</section>
+
+<!---- Javascript For Toggle Menu ---->
+<script>
+var navlinks=document.getElementById("navlinks");
+function showmenu(){
+    navlinks.style.right="0";
+}
+function hidemenu(){
+    navlinks.style.right="-200px";
+}
+</script>
+</body>
+</html>
